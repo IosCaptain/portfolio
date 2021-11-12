@@ -38,14 +38,19 @@ p {
     margin: 20px;
 }
 footer {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
     grid-column: 1 / span 5;
     grid-row: 5;
     background-color: rgb(49, 168, 184);
     text-align: center;
     text-decoration: none;
-    justify-content: center;
+    justify-content: center;;
+}
+footer > div {
+    margin: auto;
 }
 a {
     text-decoration: none;
-    justify-content: center;
 }
