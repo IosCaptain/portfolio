@@ -7,6 +7,23 @@ body {
     grid-template-rows: 1fr 1fr 1fr 1fr 75px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
+nav {
+    grid-row: 1;
+    grid-column: 1 / 6;
+    background-color: rgb(49, 168, 184);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.logo {
+    grid-row: 1 / 2;
+    grid-column: 1;
+}
+.nv {
+    grid-column: 2 / 5;
+    font-size: 50px;
+    margin: auto;
+}
 h1 {
     grid-row: 2;
     grid-column: 1;
@@ -27,13 +44,8 @@ footer {
     text-align: center;
     text-decoration: none;
     justify-content: center;
-    display: flex;
-    align-items: center;
 }
 a {
     text-decoration: none;
     justify-content: center;
-}
-a:hover {
-    size: 20px;
 }
